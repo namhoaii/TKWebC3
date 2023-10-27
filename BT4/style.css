@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.content-1 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+table#table-1,
+table#table-1 th,
+table#table-1 td {
+    border: 2px solid rgb(194, 3, 3);
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+table#table-1 {
+    width: 70%;
+}
+
+table#table-1 th {
+    text-align-last: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(243, 63, 138);
+}
+
+table#table-1 td:first-child {
+    color: rgb(0, 0, 121);
+}
+
+table#table-1 td:last-child {
+    color: rgb(0, 0, 255);
+    font-family: "Bahnschrift Light Condensed";
+    font-style: italic;
+}
+
+/* 
+--------------------------------------------------
+*/
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+table#table-2,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th,
+td {
+    padding: 5px;
+}
+table#table-2 tr td:first-child {
+    text-align: center;
+}
+table#table-2 {
+    width: 50%;
+}
+
+table#table-2 th:first-child {
+    width: 50px;
+}
+table#table-2 tr:first-child {
+    color: white;
+    font-size: 25px;
+    background: #cc6600;
+}
+
+table#table-2 {
+    width: 50%;
+    background-color: #f1f1c1;
+}
+table#table-2 tr:nth-child(even) {
+    background-color: rgb(235, 177, 101);
+}
+table#table-2 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#table-2 th {
+    color: white;
+    background-color: #cc6600;
+}

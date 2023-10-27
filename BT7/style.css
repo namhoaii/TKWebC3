@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.container > * {
+    margin-bottom: 20px;
+}
+
+.btn-the-best button {
+    background: red;
+    width: 110px;
+    color: white;
+    outline: none;
+    border: 1px solid #570000;
+    height: 35px;
+    font-weight: bold;
+}
+
+b span {
+    font-size: 30px;
+    color: blue;
+}
+
+b {
+    font-size: 20px;
+}
+
+.btn button {
+    background: #ffcb9b;
+    color: #cb2f18;
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}

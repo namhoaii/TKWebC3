@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BT chương 3</title>
+  </head>
+  <body>
+    <header>
+      <div class="typing-wrapper">
+        <p>Nộp bài tập thực hành</p>
+      </div>
+    </header>
+    <div class="container">
+      <fieldset>
+        <legend>Bài Tập CSS</legend>
+        <!--Bài1-->
+        <div class="radio-wrapper">
+          <a href="./BT1/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 1<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài2-->
+        <div class="radio-wrapper">
+          <a href="./BT2/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 2<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài3-->
+        <div class="radio-wrapper">
+          <a href="./BT3/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 3<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài4-->
+        <div class="radio-wrapper">
+          <a href="./BT4/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 4<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài5-->
+        <div class="radio-wrapper">
+          <a href="./BT5/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 5<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài6-->
+        <div class="radio-wrapper">
+          <a href="./BT6/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 6<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài7-->
+        <div class="radio-wrapper">
+          <a href="./BT7/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 7<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài8-->
+        <div class="radio-wrapper">
+          <a href="./BT8/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 8<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <!-------->
+        <!--Bài9-->
+        <div class="radio-wrapper">
+          <a href="./BT9/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài 9<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+        <div class="radio-wrapper">
+          <a href="./KTLopB/index.html"
+            ><input class="input" name="btn" id="value-3" type="button" />
+            <div class="btn">
+              Bài KT<span aria-hidden=""></span>
+              <span class="btn__glitch" aria-hidden="">Buttons_</span>
+              <label class="number">r3</label>
+            </div></a
+          >
+        </div>
+      </fieldset>
+      <!-------->
+      <!--Bài kt-->
+    </div>
+    <script>
+      const p = document.querySelector(".typing-wrapper p");
+      const originContent = p.innerHTML;
+
+      let i = 0;
+      let isForward = false;
+
+      setInterval(() => {
+        if (isForward) {
+          i++;
+          if (i >= originContent.length) {
+            isForward = false;
+          }
+        } else {
+          i--;
+          if (i <= 0) {
+            isForward = true;
+          }
+        }
+        p.innerHTML = originContent.substring(0, i);
+      }, 100);
+    </script>
+  </body>
+</html>

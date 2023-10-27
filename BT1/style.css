@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffd2f5;
+}
+
+.container {
+    text-align: justify;
+}
+
+.container h2 {
+    color: blue;
+    text-align: center;
+}
+
+.doan-1 {
+    color: #cf772e;
+    font-family: serif;
+}
+.doan-2 {
+    color: red;
+    font-weight: bold;
+}

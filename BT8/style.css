@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 440px;
+    margin: 20px auto;
+    border-radius: 5px;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(219, 211, 233);
+}
+
+.title {
+    position: relative;
+}
+
+.title hr {
+    margin-top: 10px;
+}
+.title p {
+    font-size: 15px;
+    color: #606770;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: #757575;
+}
+
+.thong-tin {
+    padding: 10px 0;
+}
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullname div {
+    width: 48%;
+}
+.fullname input {
+    width: 100%;
+}
+
+.thong-tin > div {
+    margin-top: 10px;
+}
+
+.thong-tin input[type="text"],
+.thong-tin input[type="password"] {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    background: #f5f6f7;
+}
+
+select {
+    font-size: 16px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-group div {
+    width: 31%;
+}
+
+.detail-group select {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+
+.sub-title {
+    font-size: 12px;
+    color: #606770;
+}
+
+.sub {
+    border: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.mo-ta {
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #777777;
+}
+
+.mo-ta a {
+    text-decoration: none;
+}
+
+.dang-ky {
+    text-align: center;
+}
+
+.dang-ky button {
+    background: #00a400;
+    width: 194px;
+    height: 36px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.dang-ky button:hover {
+    background: #6a9c5d;
+    color: #eaece6;
+}

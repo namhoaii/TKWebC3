@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="model-login hiden">
+            <form action="" id="form-login">
+                <div class="form-control">
+                    <label for="user">User</label>
+                    <input type="text" name="user" id="user" />
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" name="passord" id="password" />
+                </div>
+                <div class="luu-thong-tin">
+                    <input type="checkbox" name="" id="luu" />
+                    <label for="luu">Nhớ thông tin đăng nhập</label>
+                </div>
+                <div class="btn-login">
+                    <button>Đăng nhập</button>
+                </div>
+                <div class="span">X Đóng</div>
+            </form>
+        </div>
+        <header>
+            <a href="https://dtcc.edu.vn/" class="img-logo">
+                <img
+                    src="phan-mem-dao-tao-truong-cao-dang-cong-dong-dong-thap.png"
+                    alt=""
+                />
+            </a>
+            <div class="login">Đăng nhập</div>
+        </header>
+        <menu>
+            <ul id="nav">
+                <li>
+                    <a href="#"><i class="bx bxs-home-smile"></i></a>
+                </li>
+                <li>
+                    <a href="#"> Tra cứu HSSV </a>
+                </li>
+                <li>
+                    <a href="#"> TKB Lớp </a>
+                </li>
+                <li>
+                    <a href="#"> TKB Tuần </a>
+                </li>
+                <li>
+                    <a href="#"> Lịch GV </a>
+                </li>
+                <li>
+                    <a href="#"> Lịch phòng </a>
+                </li>
+                <li>
+                    <a href="#"> Đăng ký xét tuyển </a>
+                </li>
+                <li>
+                    <a href="#"> Liên hệ </a>
+                </li>
+            </ul>
+        </menu>
+        <main>
+            <div class="content">
+                <h2>TRƯỜNG CAO ĐẲNG CỘNG ĐỒNG ĐỒNG THÁP</h2>
+                <p>
+                    Dữ liệu được tích hợp từ
+                    <a
+                        href="https://thienhaso.com/phan-mem/giai-phap-phan-mem-quan-ly-truong-hoc-toan-dien-867.html"
+                        >Hệ thống quản lý đào tạo Digalaxy SIMS.NET</a
+                    >
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div class="contact">
+                <h3>Bản quyền 2021 © TRƯỜNG CAO ĐẲNG CỘNG ĐỒNG ĐỒNG THÁP</h3>
+                <p>
+                    Trụ sở chính: 259 Thiên Hộ Dương, phường Hòa Thuận, TP. Cao
+                    Lãnh, Đồng Tháp
+                </p>
+                <p>
+                    Điện thoại:
+                    <a href="tel:0277.3851523">0277.3851523</a>
+                    - Fax:
+                    <a href="tel:0277.3857932 ">0277.3857932 </a>
+                    - Email:
+                    <a href="mailto:cdcddt@dtcc.edu.vn" target="_blank"
+                        >cdcddt@dtcc.edu.vn</a
+                    >
+                </p>
+                <p>
+                    Cơ sở 1: Số 2, Trần Phú, Phường 3, Thành phố Sa Đéc, tỉnh
+                    Đồng Tháp
+                </p>
+                <p>
+                    Điện thoại:
+                    <a href="tel:02773.863.618"> 02773.863.618</a>
+                </p>
+            </div>
+            <div class="supplier">
+                Phát triển bởi
+                <a href="https://thienhaso.com/">CTY PHẦN MỀM THIÊN HÀ SỐ</a>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript">
+        const login = document.querySelector(".login ");
+        const modelLogin = document.querySelector(".model-login");
+        const close = document.querySelector(".span");
+
+        login.addEventListener("click", (e) => {
+            modelLogin.classList.remove("hiden");
+        });
+        close.addEventListener("click", (e) => {
+            modelLogin.classList.add("hiden");
+        });
+    </script>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background: url("anh.png") no-repeat left;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.doan-1 {
+    color: blue;
+    font-style: italic;
+}
+
+.doan-2 {
+    color: red;
+    font-weight: bold;
+}
+
+.doan-3 {
+    color: orange;
+}
+
+.doan-1,
+.doan-2,
+.doan-3 {
+    margin-bottom: 40px;
+}

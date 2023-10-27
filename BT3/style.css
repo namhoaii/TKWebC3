@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 20px;
+    background: rgb(254, 253, 205);
+    padding: 20px;
+}
+
+.container {
+    padding: 10px;
+    text-align: justify;
+}
+
+h1 {
+    color: blue;
+    border: 2px solid #701ef5;
+    text-align: center;
+    margin: 0 13rem 1rem 13rem;
+    padding: 0.2rem 0;
+}
+
+.sub {
+    display: flex;
+}
+
+img {
+    object-position: center;
+    object-fit: cover;
+}
+.sub p {
+    margin-left: 20px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+p.doan-1 {
+    color: green;
+}
+
+p.doan-3 {
+    color: red;
+}
